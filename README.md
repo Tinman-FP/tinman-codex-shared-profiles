@@ -56,6 +56,21 @@ Recommended starting machine presets by family:
 - `RatRig V-Core 4 IDEX`: start with the standard `RatRig V-Core 4 IDEX 500 ... - Codex Tinman`; use `COPY MODE` or `MIRROR MODE` only when that workflow is intentional
 - `Snapmaker U1`: start with the nozzle-size-matched `Codex Best Quality`, `Codex Fine`, or `Codex Draft` process family after importing the base machine preset
 
+## Recommended First Presets
+
+If you are just getting started, these are the easiest entry points:
+
+| Machine | Common Starting Nozzle | Machine Preset | Process Preset | Notes |
+| --- | --- | --- | --- | --- |
+| `Sovol SV08 MAX` | `0.6` | `Sovol SV08 MAX 0.6 nozzle Codex Tinman` | `0.24mm Codex Best Quality @Sovol SV08 MAX 0.6 nozzle` | Strong general-purpose starting point for the SV08 MAX family |
+| `Qidi X-Plus 4` | `0.6` | `Qidi X-Plus 4 0.6 nozzle - Codex Tinman` | `0.24mm Codex Best Quality @Qidi X-Plus 4 0.6 nozzle` | Good default balance of speed and finish |
+| `Elegoo Centauri Carbon` | `0.6` | `Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman` | `0.24mm Codex Best Quality @Elegoo Centauri Carbon 0.6 nozzle` | Try the plain `Codex Tinman` branch first before `Codex Tinman 2` |
+| `Creality K2 Plus` | `0.6` | `Creality K2 Plus 0.6 nozzle - Codex Tinman` | `0.24mm Codex Best Quality @Creality K2 Plus 0.6 nozzle` | Best starting point for shared engineering and general printing |
+| `RatRig V-Core 4 IDEX` | `0.6` | `RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman` | Use the nozzle-matched `Codex Best Quality` or `Codex Fine` family in that machine folder | Start with standard mode before trying `COPY MODE` or `MIRROR MODE` |
+| `Snapmaker U1` | `0.4` | Start with the base `Snapmaker U1` machine preset you intend to pair with the process family | `0.16mm Codex Best Quality @Snapmaker U1 0.4 nozzle` | Easiest entry point before moving to the larger nozzles and specialty process variants |
+
+If you prefer speed first, look for the `Codex Draft` preset family. If you prefer surface quality first, start with `Codex Best Quality`.
+
 ## Folder Summary
 
 | Folder | Machine Files | Process Files | Filament Files |
@@ -92,6 +107,10 @@ Recommended import order:
 3. Import the matching `process` presets.
 4. Import the matching `filament` presets.
 5. Open the chosen printer preset and confirm nozzle size, chamber behavior, max volumetric flow, and acceleration assumptions before printing.
+
+## Versioning
+
+This repo is intended to be shared both as a live library and as stable version snapshots. Tagged versions are useful if you want to point Reddit users or collaborators at a fixed set of files instead of a moving branch tip.
 
 ## Credits
 
