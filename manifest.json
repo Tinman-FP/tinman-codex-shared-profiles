@@ -1,0 +1,54 @@
+{
+  "generated_on": "2026-03-29",
+  "machines": {
+    "creality-k2-plus": {
+      "counts": {
+        "machine": 6,
+        "process": 13,
+        "filament": 20
+      }
+    },
+    "elegoo-centauri-carbon": {
+      "counts": {
+        "machine": 12,
+        "process": 14,
+        "filament": 23
+      }
+    },
+    "qidi-x-plus-4": {
+      "counts": {
+        "machine": 6,
+        "process": 17,
+        "filament": 20
+      }
+    },
+    "ratrig-v-core-4-idex": {
+      "counts": {
+        "machine": 18,
+        "process": 23,
+        "filament": 21
+      }
+    },
+    "shared": {
+      "counts": {
+        "machine": 0,
+        "process": 18,
+        "filament": 10
+      }
+    },
+    "snapmaker-u1": {
+      "counts": {
+        "machine": 5,
+        "process": 45,
+        "filament": 16
+      }
+    },
+    "sovol-sv08-max": {
+      "counts": {
+        "machine": 8,
+        "process": 35,
+        "filament": 21
+      }
+    }
+  }
+}

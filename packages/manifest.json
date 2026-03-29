@@ -1,0 +1,37 @@
+{
+  "generated_on": "2026-03-29",
+  "packages": [
+    {
+      "name": "creality-k2-plus.zip",
+      "bytes": 37656
+    },
+    {
+      "name": "elegoo-centauri-carbon.zip",
+      "bytes": 48561
+    },
+    {
+      "name": "qidi-x-plus-4.zip",
+      "bytes": 40647
+    },
+    {
+      "name": "ratrig-v-core-4-idex.zip",
+      "bytes": 63498
+    },
+    {
+      "name": "shared.zip",
+      "bytes": 28719
+    },
+    {
+      "name": "snapmaker-u1.zip",
+      "bytes": 60066
+    },
+    {
+      "name": "sovol-sv08-max.zip",
+      "bytes": 61614
+    },
+    {
+      "name": "tinman-codex-orca-profiles-full.zip",
+      "bytes": 349795
+    }
+  ]
+}
