@@ -1,0 +1,18 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "host_type": "elegoolink",
+    "inherits": "Elegoo Centauri Carbon 0.4 nozzle",
+    "name": "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+    "print_host": "192.168.50.2",
+    "print_host_webui": "192.168.50.2",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_notes": "MICRO_SWISS_HOTEND MICRO_SWISS_NOZZLE HARDENED_STEEL",
+    "printer_settings_id": "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+    "version": "2.3.1.10"
+}

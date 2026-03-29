@@ -1,0 +1,19 @@
+{
+  "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+  "from": "User",
+  "inherits": "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle",
+  "is_custom_defined": "0",
+  "name": "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle - Codex Tinman",
+  "print_host": "192.168.50.27",
+  "printer_extruder_id": [
+    "1",
+    "2"
+  ],
+  "printer_extruder_variant": [
+    "Direct Drive Standard",
+    "Direct Drive Standard"
+  ],
+  "printer_settings_id": "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle - Codex Tinman",
+  "support_multi_bed_types": "1",
+  "version": "2.3.1.10"
+}

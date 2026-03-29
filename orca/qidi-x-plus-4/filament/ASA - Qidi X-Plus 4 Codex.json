@@ -1,0 +1,24 @@
+{
+    "compatible_printers": [
+        "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.6 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.8 nozzle - Codex Tinman"
+    ],
+    "filament_settings_id": [
+        "ASA - Qidi X-Plus 4 Codex"
+    ],
+    "from": "User",
+    "activate_chamber_temp_control": [
+        "1"
+    ],
+    "chamber_temperature": [
+        "45"
+    ],
+    "inherits": "Generic ASA @System",
+    "is_custom_defined": "0",
+    "name": "ASA - Qidi X-Plus 4 Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": ""
+}

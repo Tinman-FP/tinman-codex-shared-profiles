@@ -1,0 +1,20 @@
+{
+  "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+  "from": "User",
+  "inherits": "RatRig V-Core 4 IDEX 500 0.6 nozzle",
+  "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\nLAYER_WIPE_ENABLE INTERVAL=5 COUNT=8\n",
+  "machine_start_gcode": "PRINT_START TOOL={initial_tool} TOOLS=auto BED=[first_layer_bed_temperature] HOTEND={if initial_tool==0}{first_layer_temperature[0]}{else}{first_layer_temperature[1]}{endif} CHAMBER=[chamber_temperature] SOAK_MIN=5 PREHEAT=150 PROBE_COUNT=9,9 MARGIN=8 CONTACT=0 CONTACT_SAMPLES=3 FORCE_Z_TILT=0 TOTAL_LAYER_COUNT={total_layer_count} X0={first_layer_print_min[0]} Y0={first_layer_print_min[1]} X1={first_layer_print_max[0]} Y1={first_layer_print_max[1]}\n",
+  "name": "RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman",
+  "print_host": "192.168.50.27",
+  "printer_extruder_id": [
+    "1",
+    "2"
+  ],
+  "printer_extruder_variant": [
+    "Direct Drive Standard",
+    "Direct Drive Standard"
+  ],
+  "printer_settings_id": "RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman",
+  "support_multi_bed_types": "1",
+  "version": "2.3.1.10"
+}

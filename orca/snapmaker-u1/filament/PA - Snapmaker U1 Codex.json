@@ -1,0 +1,18 @@
+{
+    "compatible_printers": [
+        "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+        "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+        "Snapmaker U1 (0.8 nozzle) - Codex Tinman"
+    ],
+    "filament_settings_id": [
+        "PA - Snapmaker U1 Codex"
+    ],
+    "from": "User",
+    "inherits": "fdm_filament_pa",
+    "is_custom_defined": "0",
+    "name": "PA - Snapmaker U1 Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": ""
+}

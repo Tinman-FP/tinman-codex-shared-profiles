@@ -1,0 +1,11 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "inherits": "Snapmaker U1 (0.4 nozzle)",
+    "is_custom_defined": "0",
+    "name": "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+    "print_host": "192.168.50.3",
+    "print_host_webui": "192.168.50.3",
+    "printer_settings_id": "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+    "version": "2.3.1.10"
+}

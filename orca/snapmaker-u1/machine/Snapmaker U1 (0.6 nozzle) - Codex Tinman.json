@@ -1,0 +1,30 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "is_custom_defined": "0",
+    "inherits": "Snapmaker U1 (0.4 nozzle)",
+    "max_layer_height": [
+        "0.48",
+        "0.48",
+        "0.48",
+        "0.48"
+    ],
+    "min_layer_height": [
+        "0.12",
+        "0.12",
+        "0.12",
+        "0.12"
+    ],
+    "name": "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+    "print_host": "192.168.50.3",
+    "print_host_webui": "192.168.50.3",
+    "nozzle_diameter": [
+        "0.6",
+        "0.6",
+        "0.6",
+        "0.6"
+    ],
+    "printer_settings_id": "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+    "printer_variant": "0.6",
+    "version": "2.3.2.51"
+}

@@ -1,0 +1,16 @@
+{
+    "from": "User",
+    "inherits": "0.18mm Codex Best Quality @Sovol SV08 MAX 0.4 nozzle",
+    "name": "0.18mm Codex Best Quality Hole Quality @Sovol SV08 MAX 0.4 nozzle",
+    "print_settings_id": "0.18mm Codex Best Quality Hole Quality @Sovol SV08 MAX 0.4 nozzle",
+    "compatible_printers": [
+        "Sovol SV08 MAX 0.4 nozzle Codex Tinman"
+    ],
+    "seam_position": "back",
+    "small_perimeter_speed": "45%",
+    "outer_wall_speed": "60",
+    "inner_wall_speed": "105",
+    "ensure_vertical_shell_thickness": "1",
+    "detect_thin_wall": "1",
+    "version": "2.3.2.51"
+}

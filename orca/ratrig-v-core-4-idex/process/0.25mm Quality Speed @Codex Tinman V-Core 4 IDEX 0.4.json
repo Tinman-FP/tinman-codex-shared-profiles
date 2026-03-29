@@ -1,0 +1,39 @@
+{
+    "bottom_surface_pattern": "rectilinear",
+    "brim_type": "outer_and_inner",
+    "brim_width": "25",
+    "enable_prime_tower": "1",
+    "from": "User",
+    "inherits": "0.25mm Quality Speed @RatRig V-Core 4 IDEX 0.4",
+    "initial_layer_infill_speed": "30",
+    "initial_layer_line_width": "0.42",
+    "initial_layer_print_height": "0.25",
+    "initial_layer_speed": "30",
+    "inner_wall_line_width": "0.42",
+    "interlocking_beam": "1",
+    "internal_solid_infill_line_width": "0.42",
+    "internal_solid_infill_pattern": "rectilinear",
+    "ironing_type": "top",
+    "layer_height": "0.2",
+    "line_width": "0.42",
+    "name": "0.25mm Quality Speed @Codex Tinman V-Core 4 IDEX 0.4",
+    "outer_wall_line_width": "0.42",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.25mm Quality Speed @Codex Tinman V-Core 4 IDEX 0.4",
+    "seam_position": "nearest",
+    "slow_down_layers": "2",
+    "sparse_infill_line_width": "0.42",
+    "sparse_infill_pattern": "3dhoneycomb",
+    "support_line_width": "0.43",
+    "support_style": "tree_slim",
+    "support_type": "tree(auto)",
+    "top_surface_line_width": "0.42",
+    "top_surface_pattern": "rectilinear",
+    "version": "2.3.1.10",
+    "wall_sequence": "outer wall/inner wall"
+}

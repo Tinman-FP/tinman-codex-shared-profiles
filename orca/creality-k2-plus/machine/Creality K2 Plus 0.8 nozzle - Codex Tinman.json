@@ -1,0 +1,9 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "inherits": "Creality K2 Plus 0.8 nozzle",
+    "is_custom_defined": "0",
+    "name": "Creality K2 Plus 0.8 nozzle - Codex Tinman",
+    "printer_settings_id": "Creality K2 Plus 0.8 nozzle - Codex Tinman",
+    "version": "2.3.1.10"
+}

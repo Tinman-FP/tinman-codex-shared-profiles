@@ -1,0 +1,42 @@
+{
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.20mm Standard @Sovol SV08 MAX 0.4 nozzle",
+    "initial_layer_line_width": "0.4",
+    "inner_wall_line_width": "0.42",
+    "internal_solid_infill_line_width": "0.42",
+    "name": "0.20mm Standard @Codex Tinman Sovol SV08 MAX 0.4 nozzle",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.20mm Standard @Codex Tinman Sovol SV08 MAX 0.4 nozzle",
+    "raft_first_layer_density": "60%",
+    "seam_position": "back",
+    "sparse_infill_density": "15%",
+    "sparse_infill_line_width": "0.42",
+    "support_bottom_z_distance": "0.25",
+    "support_interface_bottom_layers": "2",
+    "support_interface_pattern": "grid",
+    "support_line_width": "0.42",
+    "support_style": "organic",
+    "support_threshold_angle": "50",
+    "support_top_z_distance": "0.25",
+    "support_type": "tree(auto)",
+    "top_bottom_infill_wall_overlap": "15%",
+    "top_surface_line_width": "0.42",
+    "tree_support_branch_angle_organic": "60",
+    "tree_support_top_rate": "10%",
+    "tree_support_wall_count": "2",
+    "version": "2.3.1.10",
+    "brim_type": "outer_and_inner",
+    "brim_width": "25",
+    "ensure_vertical_shell_thickness": "1",
+    "detect_thin_wall": "1",
+    "small_perimeter_speed": "55%",
+    "travel_acceleration": "6800",
+    "travel_speed": "320",
+    "default_acceleration": "4800"
+}

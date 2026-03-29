@@ -1,0 +1,27 @@
+{
+    "compatible_printers": [
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC1",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC1"
+    ],
+    "filament_settings_id": [
+        "PA - Centauri Carbon Codex"
+    ],
+    "from": "User",
+    "activate_chamber_temp_control": [
+        "1"
+    ],
+    "chamber_temperature": [
+        "45"
+    ],
+    "inherits": "fdm_filament_pa",
+    "is_custom_defined": "0",
+    "name": "PA - Centauri Carbon Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": ""
+}

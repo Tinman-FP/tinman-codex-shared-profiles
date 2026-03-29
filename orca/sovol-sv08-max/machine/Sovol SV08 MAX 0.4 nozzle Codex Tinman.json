@@ -1,0 +1,17 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "inherits": "Sovol SV08 MAX 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Sovol SV08 MAX 0.4 nozzle Codex Tinman",
+    "print_host": "192.168.1.185",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "Sovol SV08 MAX 0.4 nozzle Codex Tinman",
+    "support_multi_bed_types": "1",
+    "version": "2.3.2.51"
+}

@@ -1,0 +1,21 @@
+{
+    "bottom_surface_pattern": "rectilinear",
+    "brim_type": "outer_and_inner",
+    "brim_width": "25",
+    "enable_prime_tower": "1",
+    "from": "User",
+    "inherits": "0.20mm Quality @RatRig V-Core 4 IDEX 0.4",
+    "name": "0.20mm Quality @RatRig V-Core 4 IDEX 0.4 - Codex Tinman",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.20mm Quality @RatRig V-Core 4 IDEX 0.4 - Codex Tinman",
+    "sparse_infill_density": "15%",
+    "top_bottom_infill_wall_overlap": "15%",
+    "top_surface_pattern": "rectilinear",
+    "version": "2.3.2.40",
+    "wall_sequence": "outer wall/inner wall"
+}

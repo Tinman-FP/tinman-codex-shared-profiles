@@ -1,0 +1,21 @@
+{
+  "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+  "from": "User",
+  "inherits": "RatRig V-Core 4 IDEX 500 0.4 nozzle",
+  "layer_change_gcode": ";AFTER_LAYER_CHANGE\n; Orca -> Klipper layer hook (wipes are throttled in Klipper by layer/time settings)\nLAYER_CHANGE LAYER=[layer_num] TOOL=[current_extruder]",
+  "machine_end_gcode": "\n; --- OrcaSlicer -> Mainline Klipper END_PRINT (IDEX with wipe before park) ---\n\n; Ensure absolute positioning\nG90\n\n; Small retract on active tool to relieve pressure\nM83\nG1 E-1.0 F1800\nM82\n\n; Lift nozzle safely off part\nG91\nG1 Z10 F900\nG90\n\n; Move to center for safe wipe travel\nG1 X250 Y250 F12000\n\n; Wipe both nozzles before cooldown parking\n; (These macros automatically park inactive tool and wipe safely)\nNOZZLE_WIPE TOOL=0\nNOZZLE_WIPE TOOL=1\n\n; Final park on wipers\nPARK_T0_SAFE\nPARK_T1_SAFE\n\n; Turn off hotends and bed\nM104 T0 S0\nM104 T1 S0\nM140 S0\n\n; Turn off chamber heaters (cooling logic remains active)\nTURN_OFF_CHAMBER\n\n; Turn off part cooling fans\nM106 S0\n\n; Optional short cooldown dwell (helps chamber airflow stabilize)\nG4 S20\n\n; Disable steppers (optional \u2014 comment out if you prefer motors locked)\nM84\n\n; Restore RGB automatic status logic\nRGB_AUTO_ONEND_PRINT",
+  "machine_start_gcode": "; --- OrcaSlicer -> Mainline Klipper START_PRINT (IDEX) ---\n\n; Pre-set bed temp early\nM140 S[first_layer_bed_temperature]\n\n; Select the starting tool (Orca uses 0/1)\nT[initial_tool]\n\n; Call Klipper START_PRINT core\n; Our macro expects: BED=<temp> EXTRUDER=<temp> TOOL=<0|1>\n; We pass the *active tool's* first-layer nozzle temp.\nSTART_PRINT BED=[first_layer_bed_temperature] EXTRUDER={first_layer_temperature[initial_tool]} TOOL=[initial_tool]\n\n; Optional: also preheat the other tool to its first-layer temp (comment out if you don't want it)\n; This does not override tool selection, it just warms the idle nozzle.\n{if initial_tool==0} M104 T1 S{first_layer_temperature[1]} {endif}\n{if initial_tool==1} M104 T0 S{first_layer_temperature[0]} {endif}\n\n; (Optional future use) Provide metadata for macros that may use it later\n; These are safe no-ops unless you create macros that consume them.\n; SET_GCODE_VARIABLE MACRO=_START_META VARIABLE=total_layers VALUE={total_layer_count}\n; SET_GCODE_VARIABLE MACRO=_START_META VARIABLE=x0 VALUE={first_layer_print_min[0]}\n; SET_GCODE_VARIABLE MACRO=_START_META VARIABLE=y0 VALUE={first_layer_print_min[1]}\n; SET_GCODE_VARIABLE MACRO=_START_META VARIABLE=x1 VALUE={first_layer_print_max[0]}\n; SET_GCODE_VARIABLE MACRO=_START_META VARIABLE=y1 VALUE={first_layer_print_max[1]}\n\n; After START_PRINT completes, your macros will already have:\n; - homed\n; - Z_TILT_ADJUST done\n; - start wipe done (if enabled)",
+  "name": "RatRig V-Core 4 IDEX 500 0.4 nozzle - Codex Tinman",
+  "print_host": "192.168.50.27",
+  "printer_extruder_id": [
+    "1",
+    "2"
+  ],
+  "printer_extruder_variant": [
+    "Direct Drive Standard",
+    "Direct Drive Standard"
+  ],
+  "printer_settings_id": "RatRig V-Core 4 IDEX 500 0.4 nozzle - Codex Tinman",
+  "support_multi_bed_types": "1",
+  "version": "2.3.1.10"
+}

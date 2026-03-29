@@ -1,0 +1,87 @@
+{
+    "filament_deretraction_speed": [
+        "30"
+    ],
+    "filament_retract_before_wipe": [
+        "1%"
+    ],
+    "filament_retract_restart_extra": [
+        "1"
+    ],
+    "filament_retract_when_changing_layer": [
+        "1"
+    ],
+    "filament_retraction_minimum_travel": [
+        "0.8"
+    ],
+    "filament_retraction_speed": [
+        "30"
+    ],
+    "filament_settings_id": [
+        "TPU 95A - Elegoo Codex Tinman @ECC"
+    ],
+    "filament_wipe": [
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1.2"
+    ],
+    "from": "User",
+    "inherits": "Elegoo TPU 95A @ECC",
+    "is_custom_defined": "0",
+    "name": "TPU 95A - Elegoo Codex Tinman @ECC",
+    "version": "1.1.8.1",
+    "compatible_printers": [
+        "Elegoo Centauri Carbon 0.4 nozzle",
+        "Elegoo Centauri Carbon 0.6 nozzle",
+        "Elegoo Centauri Carbon 0.8 nozzle",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman 2",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman 2",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC1",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC1",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC1",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC2",
+        "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+        "Creality K2 Plus 0.6 nozzle - Codex Tinman",
+        "Creality K2 Plus 0.8 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.6 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.8 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 0.4 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 0.8 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 COPY MODE 0.4 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 COPY MODE 0.6 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 COPY MODE 0.8 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.4 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle - Codex Tinman",
+        "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.8 nozzle - Codex Tinman",
+        "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+        "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+        "Sovol SV08 MAX 0.4 nozzle Codex Tinman",
+        "Sovol SV08 MAX 0.6 nozzle Codex Tinman",
+        "Sovol SV08 MAX 0.8 nozzle Codex Tinman",
+        "Sovol SV08 MAX 1.0 nozzle Codex Tinman"
+    ],
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "overhang_fan_speed": [
+        "70"
+    ]
+}

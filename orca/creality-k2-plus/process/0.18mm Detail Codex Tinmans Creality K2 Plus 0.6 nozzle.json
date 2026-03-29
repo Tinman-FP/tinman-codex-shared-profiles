@@ -1,0 +1,20 @@
+{
+    "bottom_surface_pattern": "rectilinear",
+    "from": "User",
+    "inherits": "0.18mm Detail @Creality K2 Plus 0.6 nozzle",
+    "interlocking_beam": "1",
+    "ironing_type": "topmost",
+    "is_custom_defined": "0",
+    "max_travel_detour_distance": "10",
+    "name": "0.18mm Detail Codex Tinmans Creality K2 Plus 0.6 nozzle",
+    "print_settings_id": "0.18mm Detail Codex Tinmans Creality K2 Plus 0.6 nozzle",
+    "reduce_crossing_wall": "1",
+    "seam_position": "back",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "3dhoneycomb",
+    "top_surface_pattern": "rectilinear",
+    "version": "2.3.0.3",
+    "wall_sequence": "outer wall/inner wall",
+    "brim_type": "outer_and_inner",
+    "brim_width": "25"
+}

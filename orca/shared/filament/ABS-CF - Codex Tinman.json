@@ -1,0 +1,148 @@
+{
+  "chamber_temperatures": [
+    "50"
+  ],
+  "close_fan_the_first_x_layers": [
+    "3"
+  ],
+  "compatible_printers": [
+    "Elegoo Centauri Carbon 0.6 nozzle",
+    "Elegoo Centauri Carbon 0.4 nozzle",
+    "Elegoo Centauri Carbon 0.8 nozzle",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC2",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC2",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC2",
+    "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+    "Creality K2 Plus 0.6 nozzle - Codex Tinman",
+    "Creality K2 Plus 0.8 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.6 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.8 nozzle - Codex Tinman",
+    "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+    "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+    "Sovol SV08 MAX 0.4 nozzle Codex Tinman",
+    "Sovol SV08 MAX 0.6 nozzle Codex Tinman",
+    "Sovol SV08 MAX 0.8 nozzle Codex Tinman",
+    "Sovol SV08 MAX 1.0 nozzle Codex Tinman"
+  ],
+  "compatible_printers_condition": "",
+  "compatible_prints": [],
+  "compatible_prints_condition": "",
+  "default_filament_colour": [
+    "#000000"
+  ],
+  "description": "Aligned to carbon-fiber ABS vendor guidance: 240/245C nozzle, 100/105C bed, chamber heat on, low fan, conservative 10 mm^3/s ceiling for abrasion-safe structural printing.",
+  "enable_pressure_advance": [
+    "1"
+  ],
+  "fan_max_speed": [
+    "8"
+  ],
+  "fan_min_speed": [
+    "0"
+  ],
+  "filament_cost": [
+    "30"
+  ],
+  "filament_deretraction_speed": [
+    "30"
+  ],
+  "filament_flow_ratio": [
+    "0.98"
+  ],
+  "filament_max_volumetric_speed": [
+    "10"
+  ],
+  "filament_retract_when_changing_layer": [
+    "1"
+  ],
+  "filament_retraction_length": [
+    "0.9"
+  ],
+  "filament_retraction_speed": [
+    "35"
+  ],
+  "filament_settings_id": [
+    "ABS-CF - Codex Tinman"
+  ],
+  "filament_shrink": [
+    "98.931%"
+  ],
+  "filament_shrinkage_compensation_z": [
+    "98.783%"
+  ],
+  "filament_vendor": [
+    "Codex Tinman ABS -CF"
+  ],
+  "filament_wipe": [
+    "1"
+  ],
+  "filament_wipe_distance": [
+    "1.8"
+  ],
+  "filament_z_hop": [
+    "0.2"
+  ],
+  "from": "User",
+  "hot_plate_temp": [
+    "100"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "105"
+  ],
+  "inherits": "Generic ABS @System",
+  "is_custom_defined": "0",
+  "name": "ABS-CF - Codex Tinman",
+  "nozzle_temperature": [
+    "240"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "245"
+  ],
+  "nozzle_temperature_range_high": [
+    "250"
+  ],
+  "nozzle_temperature_range_low": [
+    "230"
+  ],
+  "overhang_fan_speed": [
+    "20"
+  ],
+  "overhang_fan_threshold": [
+    "10%"
+  ],
+  "pressure_advance": [
+    "0.03"
+  ],
+  "slow_down_min_speed": [
+    "20"
+  ],
+  "temperature_vitrification": [
+    "100"
+  ],
+  "textured_plate_temp": [
+    "90"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "90"
+  ],
+  "version": "2.3.1.10"
+}

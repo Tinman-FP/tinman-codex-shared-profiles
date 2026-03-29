@@ -1,0 +1,13 @@
+{
+    "bed_custom_texture": "/Users/williamtinney/Downloads/darkmoon_build_plate.png",
+    "from": "User",
+    "host_type": "crealityprint",
+    "inherits": "Creality K2 Plus 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+    "print_host": "192.168.1.34:4408",
+    "printer_settings_id": "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+    "printhost_apikey": "b301dbae967a4f4392e4ebf5b25f4cec",
+    "support_multi_bed_types": "1",
+    "version": "2.3.2.51"
+}

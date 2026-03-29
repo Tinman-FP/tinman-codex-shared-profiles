@@ -1,0 +1,27 @@
+{
+    "compatible_printers": [
+        "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+        "Creality K2 Plus 0.6 nozzle - Codex Tinman",
+        "Creality K2 Plus 0.8 nozzle - Codex Tinman"
+    ],
+    "filament_settings_id": [
+        "PA6-CF - Creality K2 Plus Codex"
+    ],
+    "from": "User",
+    "activate_chamber_temp_control": [
+        "1"
+    ],
+    "chamber_temperature": [
+        "45"
+    ],
+    "inherits": "Fiberon PA6-CF @System",
+    "is_custom_defined": "0",
+    "name": "PA6-CF - Creality K2 Plus Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "required_nozzle_HRC": [
+        "40"
+    ]
+}

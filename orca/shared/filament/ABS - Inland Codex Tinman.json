@@ -1,0 +1,133 @@
+{
+  "chamber_temperatures": [
+    "50"
+  ],
+  "close_fan_the_first_x_layers": [
+    "3"
+  ],
+  "compatible_printers": [
+    "Elegoo Centauri Carbon 0.4 nozzle",
+    "Elegoo Centauri Carbon 0.6 nozzle",
+    "Elegoo Centauri Carbon 0.8 nozzle",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex Tinman 2",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC1",
+    "Elegoo Centauri Carbon 0.4 nozzle - Codex TinmanCC2",
+    "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC2",
+    "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC2",
+    "Creality K2 Plus 0.4 nozzle - Codex Tinman",
+    "Creality K2 Plus 0.6 nozzle - Codex Tinman",
+    "Creality K2 Plus 0.8 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.6 nozzle - Codex Tinman",
+    "Qidi X-Plus 4 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 COPY MODE 0.8 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.4 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.6 nozzle - Codex Tinman",
+    "RatRig V-Core 4 IDEX 500 MIRROR MODE 0.8 nozzle - Codex Tinman",
+    "Snapmaker U1 (0.4 nozzle) - Codex Tinman",
+    "Snapmaker U1 (0.6 nozzle) - Codex Tinman",
+    "Sovol SV08 MAX 0.4 nozzle Codex Tinman",
+    "Sovol SV08 MAX 0.6 nozzle Codex Tinman",
+    "Sovol SV08 MAX 0.8 nozzle Codex Tinman",
+    "Sovol SV08 MAX 1.0 nozzle Codex Tinman"
+  ],
+  "compatible_printers_condition": "",
+  "compatible_prints": [],
+  "compatible_prints_condition": "",
+  "default_filament_colour": [
+    "#000000"
+  ],
+  "description": "Aligned to Inland ABS guidance inside an enclosed direct-drive RatRig: 250/255C nozzle, 100/105C bed, 50C chamber, short retraction, moderate PA.",
+  "enable_pressure_advance": [
+    "1"
+  ],
+  "fan_max_speed": [
+    "10"
+  ],
+  "fan_min_speed": [
+    "0"
+  ],
+  "filament_deretraction_speed": [
+    "35"
+  ],
+  "filament_flow_ratio": [
+    "0.98"
+  ],
+  "filament_max_volumetric_speed": [
+    "15"
+  ],
+  "filament_retract_before_wipe": [
+    "1%"
+  ],
+  "filament_retraction_length": [
+    "0.9"
+  ],
+  "filament_retraction_speed": [
+    "35"
+  ],
+  "filament_settings_id": [
+    "ABS - Inland Codex Tinman"
+  ],
+  "filament_shrink": [
+    "98.7%"
+  ],
+  "filament_vendor": [
+    "Inland"
+  ],
+  "filament_wipe": [
+    "1"
+  ],
+  "filament_wipe_distance": [
+    "1.2"
+  ],
+  "filament_z_hop": [
+    "0.2"
+  ],
+  "from": "User",
+  "hot_plate_temp": [
+    "100"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "105"
+  ],
+  "inherits": "Generic ABS @Elegoo",
+  "is_custom_defined": "0",
+  "name": "ABS - Inland Codex Tinman",
+  "nozzle_temperature": [
+    "250"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "255"
+  ],
+  "nozzle_temperature_range_high": [
+    "260"
+  ],
+  "nozzle_temperature_range_low": [
+    "235"
+  ],
+  "overhang_fan_speed": [
+    "25"
+  ],
+  "pressure_advance": [
+    "0.03"
+  ],
+  "textured_plate_temp": [
+    "100"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "100"
+  ],
+  "version": "1.2.0.18"
+}
