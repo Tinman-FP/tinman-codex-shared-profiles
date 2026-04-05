@@ -1,0 +1,49 @@
+{
+    "brim_type": "no_brim",
+    "brim_width": "25",
+    "compatible_printers": [
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2"
+    ],
+    "default_acceleration": 2200,
+    "detect_thin_wall": "1",
+    "enable_support": "1",
+    "from": "User",
+    "gap_infill_speed": 56,
+    "inherits": "0.16mm Optimal @Elegoo CC 0.4 nozzle",
+    "initial_layer_acceleration": "510",
+    "initial_layer_infill_speed": 34,
+    "initial_layer_speed": 21,
+    "inner_wall_acceleration": 1668,
+    "inner_wall_speed": 76,
+    "internal_solid_infill_acceleration": 1668,
+    "internal_solid_infill_speed": 89,
+    "max_travel_detour_distance": "10",
+    "name": "0.12mm PCTG Codex Fine @Elegoo Centauri Carbon 0.4 nozzle",
+    "outer_wall_acceleration": 836,
+    "outer_wall_speed": 39,
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "0.12mm PCTG Codex Fine @Elegoo Centauri Carbon 0.4 nozzle",
+    "reduce_crossing_wall": "1",
+    "seam_position": "nearest",
+    "sparse_infill_acceleration": 2017,
+    "sparse_infill_pattern": "gyroid",
+    "sparse_infill_speed": 97,
+    "support_style": "tree_slim",
+    "support_type": "tree(auto)",
+    "top_surface_acceleration": 803,
+    "top_surface_speed": 44,
+    "travel_acceleration": 2657,
+    "travel_speed": 225,
+    "version": "2.3.2.51",
+    "small_perimeter_speed": "35%",
+    "slowdown_for_curled_perimeters": 1,
+    "min_print_speed": 8,
+    "wipe_on_loops": 1,
+    "wipe_before_external_loop": 1
+}

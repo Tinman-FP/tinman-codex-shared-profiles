@@ -1,0 +1,37 @@
+{
+    "compatible_printers": [
+        "Prusa CORE One L 0.4 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.4 nozzle",
+        "Prusa CORE One L 0.5 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.5 nozzle",
+        "Prusa CORE One L 0.6 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.6 nozzle",
+        "Prusa CORE One L 0.8 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.8 nozzle",
+        "Prusa CORE One L HF 0.4 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.4 nozzle",
+        "Prusa CORE One L HF 0.5 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.5 nozzle",
+        "Prusa CORE One L HF 0.6 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.6 nozzle",
+        "Prusa CORE One L HF 0.8 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.8 nozzle"
+    ],
+    "filament_settings_id": [
+        "PC - Prusa CORE One Codex"
+    ],
+    "from": "User",
+    "name": "PC - Prusa CORE One Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "activate_chamber_temp_control": [
+        "1"
+    ],
+    "chamber_temperature": [
+        "45"
+    ],
+    "inherits": "Generic PC @System",
+    "is_custom_defined": "0"
+}

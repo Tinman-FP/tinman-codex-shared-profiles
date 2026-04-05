@@ -1,0 +1,67 @@
+{
+    "filament_settings_id": [
+        "TPU 95A - Prusa CORE One Codex"
+    ],
+    "from": "User",
+    "name": "TPU 95A - Prusa CORE One Codex",
+    "version": "1.1.8.1",
+    "compatible_printers": [
+        "Prusa CORE One L 0.4 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.4 nozzle",
+        "Prusa CORE One L 0.5 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.5 nozzle",
+        "Prusa CORE One L 0.6 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.6 nozzle",
+        "Prusa CORE One L 0.8 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.8 nozzle",
+        "Prusa CORE One L HF 0.4 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.4 nozzle",
+        "Prusa CORE One L HF 0.5 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.5 nozzle",
+        "Prusa CORE One L HF 0.6 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.6 nozzle",
+        "Prusa CORE One L HF 0.8 nozzle - Codex Tinman",
+        "Prusa CORE One L HF 0.8 nozzle"
+    ],
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "filament_deretraction_speed": [
+        "30"
+    ],
+    "filament_retract_before_wipe": [
+        "1%"
+    ],
+    "filament_retract_restart_extra": [
+        "1"
+    ],
+    "filament_retract_when_changing_layer": [
+        "1"
+    ],
+    "filament_retraction_minimum_travel": [
+        "0.8"
+    ],
+    "filament_retraction_speed": [
+        "30"
+    ],
+    "filament_wipe": [
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1.2"
+    ],
+    "inherits": "Elegoo TPU 95A @ECC",
+    "is_custom_defined": "0",
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "overhang_fan_speed": [
+        "70"
+    ]
+}

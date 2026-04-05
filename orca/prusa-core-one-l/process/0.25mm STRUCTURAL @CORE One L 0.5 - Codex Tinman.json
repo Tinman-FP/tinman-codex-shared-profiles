@@ -1,0 +1,13 @@
+{
+    "type": "process",
+    "name": "0.25mm STRUCTURAL @CORE One L 0.5 - Codex Tinman",
+    "from": "User",
+    "inherits": "0.25mm STRUCTURAL @CORE One L 0.5",
+    "compatible_printers": [
+        "Prusa CORE One L 0.5 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.5 nozzle"
+    ],
+    "compatible_printers_condition": "",
+    "print_settings_id": "0.25mm STRUCTURAL @CORE One L 0.5 - Codex Tinman",
+    "version": "2.3.2.51"
+}

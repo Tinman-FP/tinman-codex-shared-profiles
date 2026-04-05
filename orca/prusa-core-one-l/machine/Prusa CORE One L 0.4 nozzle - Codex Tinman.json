@@ -1,0 +1,24 @@
+{
+    "type": "machine",
+    "name": "Prusa CORE One L 0.4 nozzle - Codex Tinman",
+    "from": "User",
+    "inherits": "Prusa CORE One L 0.4 nozzle",
+    "instantiation": "true",
+    "host_type": "octoprint",
+    "print_host": "127.0.0.1:19777",
+    "print_host_webui": "192.168.50.169",
+    "printhost_authorization_type": "key",
+    "printhost_user": "",
+    "printhost_password": "",
+    "printhost_apikey": "codex-prusa-relay",
+    "default_filament_profile": "Prusament PLA @CORE One",
+    "default_print_profile": "0.20mm SPEED @CORE One L 0.4",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "printer_model": "Prusa CORE One",
+    "printer_variant": "0.4",
+    "printer_notes": "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_MODEL_COREONE_L\nPG\nNO_TEMPLATES",
+    "printer_settings_id": "Prusa CORE One L 0.4 nozzle - Codex Tinman",
+    "version": "2.3.2.51"
+}

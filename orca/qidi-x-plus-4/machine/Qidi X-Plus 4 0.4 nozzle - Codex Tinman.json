@@ -3,6 +3,28 @@
     "bed_custom_texture": "/Applications/QIDIStudio.app/Contents/Resources/profiles/X 4 Series/X-Plus 4_bed.svg",
     "from": "User",
     "inherits": "Qidi X-Plus 4 0.4 nozzle",
+    "machine_load_filament_time": "56",
+    "machine_max_acceleration_extruding": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "5000",
+        "5000"
+    ],
+    "machine_max_acceleration_travel": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_x": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_y": [
+        "4000",
+        "4000"
+    ],
+    "machine_unload_filament_time": "11",
     "name": "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
     "print_host": "192.168.50.145",
     "printer_agent": "moonraker",
@@ -14,23 +36,5 @@
     ],
     "printer_settings_id": "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
     "support_multi_bed_types": "1",
-    "version": "2.3.2.51",
-    "machine_max_acceleration_x": [
-        "6200"
-    ],
-    "machine_max_acceleration_y": [
-        "6200"
-    ],
-    "machine_max_acceleration_travel": [
-        "6200"
-    ],
-    "machine_max_acceleration_extruding": [
-        "6200"
-    ],
-    "machine_max_acceleration_retracting": [
-        "5000"
-    ],
-    "machine_max_acceleration_z": [
-        "500"
-    ]
+    "version": "2.3.2.51"
 }

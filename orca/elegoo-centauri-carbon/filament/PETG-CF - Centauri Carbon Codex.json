@@ -1,0 +1,69 @@
+{
+    "compatible_printers": [
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman 2",
+        "Elegoo Centauri Carbon 0.4 nozzle - Codex Tinman",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.6 nozzle - Codex TinmanCC1",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC2",
+        "Elegoo Centauri Carbon 0.8 nozzle - Codex TinmanCC1"
+    ],
+    "filament_settings_id": [
+        "PETG-CF - Centauri Carbon Codex"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG-CF @System",
+    "is_custom_defined": "0",
+    "name": "PETG-CF - Centauri Carbon Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "filament_type": [
+        "PETG-CF"
+    ],
+    "required_nozzle_HRC": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "9"
+    ],
+    "nozzle_temperature": [
+        "245"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "270"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "fan_max_speed": [
+        "25"
+    ],
+    "close_fan_the_first_x_layers": [
+        "3"
+    ],
+    "overhang_fan_speed": [
+        "60"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "compatible_printers": [
+        "Qidi X-Plus 4 0.4 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.6 nozzle - Codex Tinman",
+        "Qidi X-Plus 4 0.8 nozzle - Codex Tinman"
+    ],
+    "filament_settings_id": [
+        "PCTG - Qidi X-Plus 4 Codex"
+    ],
+    "from": "User",
+    "inherits": "Generic PCTG @System",
+    "is_custom_defined": "0",
+    "name": "PCTG - Qidi X-Plus 4 Codex",
+    "version": "2.3.1.10",
+    "compatible_printers_condition": "",
+    "compatible_prints": [],
+    "compatible_prints_condition": "",
+    "filament_type": [
+        "PCTG"
+    ],
+    "fan_min_speed": [
+        "10"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "nozzle_temperature": [
+        "265"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "265"
+    ],
+    "nozzle_temperature_range_low": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "290"
+    ],
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "close_fan_the_first_x_layers": [
+        "3"
+    ],
+    "overhang_fan_speed": [
+        "95"
+    ],
+    "filament_wipe": [
+        "1"
+    ],
+    "filament_wipe_distance": [
+        "1"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "pressure_advance": [
+        "0.08"
+    ],
+    "filament_retraction_length": [
+        "0.6"
+    ]
+}

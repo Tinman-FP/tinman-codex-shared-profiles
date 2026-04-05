@@ -1,0 +1,17 @@
+{
+    "from": "User",
+    "inherits": "Prusa CORE One L 0.6 nozzle",
+    "name": "Prusa CORE One L 0.6 nozzle - Codex Tinman",
+    "print_host": "192.168.50.169",
+    "print_host_webui": "192.168.50.169",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_settings_id": "Prusa CORE One L 0.6 nozzle - Codex Tinman",
+    "printhost_password": "7ZMeuQCsyySV4Bi",
+    "printhost_user": "maker",
+    "version": "2.3.2.51"
+}

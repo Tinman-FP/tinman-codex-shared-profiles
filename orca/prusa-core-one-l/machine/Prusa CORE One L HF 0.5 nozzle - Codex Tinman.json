@@ -1,0 +1,24 @@
+{
+    "type": "machine",
+    "name": "Prusa CORE One L HF 0.5 nozzle - Codex Tinman",
+    "from": "User",
+    "inherits": "Prusa CORE One L HF 0.5 nozzle",
+    "instantiation": "true",
+    "host_type": "prusalink",
+    "print_host": "192.168.50.169",
+    "print_host_webui": "prusa-core-one-l",
+    "printhost_authorization_type": "digest",
+    "printhost_user": "maker",
+    "printhost_password": "7ZMeuQCsyySV4Bi",
+    "printhost_apikey": "",
+    "default_filament_profile": "Prusament PLA @CORE One HF 0.5",
+    "default_print_profile": "0.20mm SPEED @CORE One HF 0.5",
+    "nozzle_diameter": [
+        "0.5"
+    ],
+    "printer_model": "Prusa CORE One HF",
+    "printer_variant": "0.5",
+    "printer_notes": "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_MODEL_COREONE_L\nHF_NOZZLE\nPG\nNO_TEMPLATES\nSEQ_ARRANGE_MODEL_COREONEL",
+    "printer_settings_id": "Prusa CORE One L HF 0.5 nozzle - Codex Tinman",
+    "version": "2.3.2.51"
+}

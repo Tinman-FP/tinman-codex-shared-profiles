@@ -1,0 +1,13 @@
+{
+    "type": "process",
+    "name": "0.25mm SPEED @CORE One L 0.6 - Codex Tinman",
+    "from": "User",
+    "inherits": "0.25mm SPEED @CORE One L 0.6",
+    "compatible_printers": [
+        "Prusa CORE One L 0.6 nozzle - Codex Tinman",
+        "Prusa CORE One L 0.6 nozzle"
+    ],
+    "compatible_printers_condition": "",
+    "print_settings_id": "0.25mm SPEED @CORE One L 0.6 - Codex Tinman",
+    "version": "2.3.2.51"
+}
